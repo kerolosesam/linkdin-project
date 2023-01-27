@@ -20,28 +20,6 @@ a{
     text-decoration: none;
 }
 
-.per{
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-}
-
-.try{
-    color: #935d0e;
-    text-decoration: underline;
-    font-size: 12px;
-}
-
-.try:hover{
-    color: #5d3b09;
-}
-
-.try > span{
-    color: #5d3b09 !important;
-    text-transform: none !important;
-    margin-top: 4px;
-}
-
 .container{
     width: 1140px;
     margin: auto;
@@ -76,12 +54,12 @@ button{
     position: sticky;
     top: 0;
     z-index: 20;
+    padding: 5px 2%;
 }
 
 .container{
-    width: 85%;
+    width: 87%;
     margin: auto;
-    /* background: rgba(128, 128, 128, 0.456); */
 }
 
 nav{
@@ -89,11 +67,15 @@ nav{
     align-items: center;
 }
 
+nav .home-logo{
+    height: 35px;
+    width: 35px;
+    margin-right: 7px;
+}
+
 nav .home-logo img{
     width: 35px;
-    height: 33px;
-    margin-right: 7px;
-    margin-top: 3px;
+    height: 35px;
 }
 
 nav .search {
@@ -110,7 +92,11 @@ nav .search input{
 nav .list-menu{
     border-right: 1px solid #f3f2ef;
     padding-right: 15px;
-    padding-top: 5px;
+}
+
+nav .list-menu ul{
+    display: flex;
+    align-items: center;
 }
 
 nav .list-menu ul li{
@@ -119,11 +105,11 @@ nav .list-menu ul li{
     padding-right: 13px;
     text-align: center;
     position: relative;
-    border-bottom: 2px solid #fff;
 }
 
 nav .list-menu ul li a{
     color: #676767;
+    display: inline-block;
 }
 
 nav .list-menu ul li:hover{
@@ -134,7 +120,6 @@ nav .list-menu ul li .link span{
     display: block;
     text-transform: capitalize;
     font-size: 12px;
-    margin-bottom: 3px;
 }
 
 nav .list-menu ul li .link i{
@@ -162,6 +147,12 @@ nav .list-menu ul li .link .notifi-numb{
     padding: 3px 4px;
     border-radius: 12px;
     font-size: 11px;
+}
+
+nav .list-menu ul li .per{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
 }
 
 nav .list{
@@ -210,10 +201,28 @@ nav .list ul li .link .down-arrow i{
     font-size: 13px;
 }
 
+nav .list .try{
+    color: #935d0e;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+nav .list .try:hover{
+    color: #5d3b09;
+}
+
+nav .list .try > span{
+    color: #5d3b09 !important;
+    text-transform: none !important;
+    margin-top: 4px;
+}
+
 /************************** Left Section **************************/
 .cont{
     display: flex;
-    padding-top: 20px;
+    padding-top: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .pro-card{
@@ -542,7 +551,7 @@ nav .list ul li .link .down-arrow i{
 
 .share-box .tool-bar a span{
     font-size: 15px;
-    color: #555555;
+    color: #00000099;
 }
 
 .space{
@@ -589,11 +598,16 @@ nav .list ul li .link .down-arrow i{
     align-items: center;
 }
 
-.post .celeb img{
-    height: 24px;
-    width: 24px;
-    border-radius: 50%;
+.post .celeb > a{
+    height: 25px;
+    width: 25px;
     margin-right: 8px;
+}
+
+.post .celeb img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
 }
 
 .post .celeb .name-sec{

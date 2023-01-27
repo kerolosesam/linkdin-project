@@ -169,6 +169,7 @@ header {
     border-radius: 74px;
     padding: 17px 32px;
     font-size: 20px;
+    text-align: center;
 }
 
 .left-side .sign-in:hover{
@@ -183,10 +184,11 @@ header {
     color: #00000099;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .left-side .google-sign-in:hover{
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     color: #000000;
 }
 
@@ -225,10 +227,6 @@ header {
 
 .left-side .space span:after{
     margin-left: 15px;
-}
-
-.right-side{
-
 }
 
 .right-side img{

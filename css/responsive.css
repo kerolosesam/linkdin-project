@@ -1,0 +1,97 @@
+/* @media screen and (max-width:1119px) {
+    .container{width: 100%;}
+}
+
+@media screen and (max-width:991px) {
+    .right-sec{display: none;}
+    .container {width: 96%;}
+    .left-sec{width: 45%;}
+    .center-sec{width: 100%;}
+
+    .sticky{position: static;}
+    .chat{display: none;}
+
+    .cont{margin-left: 5%;margin-right: 5%;}
+
+    .bk-white{padding: 8px 20px;}
+
+    nav .home-logo{margin-right: 20px;}
+    nav .search{display: none;}
+    nav .list-menu{border-right: 1px solid #f3f2ef;padding-top: 0;flex-grow: 1;}
+    nav .list{display: flex; padding-left: 0;}
+    nav .list-menu ul{display: flex; align-items: center; justify-content: space-between;}
+    nav .list ul li{padding-left: 13px; padding-right: 13px;}
+    nav .list ul li .link .down-arrow{display: none;}
+    nav .list .try{font-size: 11px;}
+    nav .list-menu ul li .link span{display: none;}
+
+    .active{border-bottom: none!important;}
+} */
+
+@media screen and (max-width:767px) {
+
+    .bk-white{padding: 5px 10px;}
+    
+    .container{width: 100%;}
+    
+    nav .search {display: none;}
+    nav .list-menu{padding-top: 0; padding-right: 0; border-right: none; flex-grow: 1;}
+    nav .list-menu ul{display: flex; justify-content: space-between; align-items: center;}
+    nav .list-menu ul li{border: none;}
+    nav .list-menu ul li a > span {display: none;}
+    nav .list-menu ul li .link span{display: none;}
+    nav .list{display: none;}
+    .active{border: none !important;}
+
+    .cont {flex-direction: column;}
+
+    .left-sec{width: 100%;}
+    .center-sec{width: 100%;}
+    .right-sec{width: 100%;}
+
+    .connections, .access, .items, .hash-list{display: none;}
+    .pro-card{margin-bottom: 15px;border-bottom: 1px solid #00000021;}
+    .info img{width: 70px;height: 70px;left: 49%;border-width: 2px;}
+    .info h3{padding-top: 50px}
+
+    .cont2{margin: 0;}
+
+    .share-box .tool-bar{flex-wrap: wrap;justify-content: space-around;padding: 0;margin-top: 8px;margin-bottom: 8px;}
+    .share-box .tool-bar a{padding: 10px;}
+    .share-box .tool-bar a i{margin-right: 13px;}
+    .share-box .tool-bar a span{font-size: 13px;}
+    .space .sort{margin-left: 10px;}
+    .space .sort > span{margin-right: 8px;}
+
+    .post{padding: 10px; padding-bottom: 3px; margin-bottom: 8px;}
+    .post .post-details .per-components .img-per{margin-right: 12px;}
+    .post .post-details .per-components .img-per img{width: 45px; height: 45px;}
+    .post .post-details .per-components .per-info h2{font-size: 13px;}
+    .post .post-details .per-components .per-info .position{font-size: 11px;}
+    .post .post-details .per-components .follow{padding: 8px; font-size: 14px;}
+    .post .post-details .per-components .follow i{margin-right: 0;}
+    .post .post-details .hash-section{font-size: 14px;}
+    .post .post-details .content{font-size: 15px;}
+    .post .post-details .hash-section a{margin-right: 2px;}
+    .post .social-action{margin-top: 3px;}
+    .post .social-action a > span{display: none;}
+
+    .right-sec .pro-card{padding: 20px;}
+    .right-sec .pro-card .per-components .per-info .follow{padding: 5px 13px;}
+    .right-sec .pro-card{margin-bottom: 7px;}
+    .right-sec .ads{margin-top: 0;}
+    .right-sec .compact-links ul li a{font-size: 12px;}
+    .right-sec .compact-links{padding-bottom: 20px;}
+
+    .chat{display: none;}
+
+    /* Global */
+    .connections, 
+    .access, .items, .hash-list, .post, .ads, .pro-card .info .entity-bg, .pro-card, .share-box, .post{
+        border-radius: 0;
+    }
+}
+
+/* @media (min-width:650px) and (max-width:767px){
+    nav .list{display: flex; padding-left: 0;}
+} */
